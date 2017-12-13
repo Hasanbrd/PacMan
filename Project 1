@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+void printmap();
+char player = 'O';
+
+
+int main() {
+	printmap();
+
+}
+
+void printmap(){
+	cout<<"####################"<<endl;
+	cout<<"#    #        #    #"<<endl;
+	cout<<"# ## # ###### # ## #"<<endl;
+	cout<<"# #              # #"<<endl;
+	cout<<"# # ## ##  ## ## # #"<<endl;
+	cout<<"#      #    #      #"<<endl;
+	cout<<"# # ## ###### ## # #"<<endl;
+	cout<<"# #              # #"<<endl;
+	cout<<"# ## # ###### # ## #"<<endl;
+	cout<<"#    #        #    #"<<endl;
+	cout<<"####################"<<endl;	
+	
+}
